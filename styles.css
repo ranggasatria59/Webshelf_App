@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('naruto_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  .bookshelves {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .shelf {
+    flex: 1;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+  }
+  
+  .shelf h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .add-book {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .add-book h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #FFD700;
+  }
+  
+  .book {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .book button {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book button:hover {
+    background-color: #FFD700;
+  }
+  
+  .book button.delete {
+    background-color: #DC143C;
+  }
+  
+  .book button.delete:hover {
+    background-color: #FF6347;
+  }
+  
